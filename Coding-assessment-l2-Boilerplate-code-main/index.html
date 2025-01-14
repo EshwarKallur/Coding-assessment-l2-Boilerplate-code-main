@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - Marmeto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <img src="logo.jpg" alt="Marmeto Logo">
+        <span>Marmeto</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="nav-icons">
+        <span>🔍</span>
+        <span>🤍</span>
+        <span>🛒</span>
+      </div>
+    </div>
+  </header>
+  
+  
+
+  <!-- Banner -->
+  <section class="banner">
+    <h1>Cart</h1>
+    <p>Home > Cart</p>
+  </section>
+
+  <!-- Cart Content -->
+  <main class="container">
+    <section class="cart-section">
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody id="cart-container">
+          <!-- Cart items will be dynamically inserted here -->
+        </tbody>
+      </table>
+    </section>
+
+    <aside class="cart-totals">
+      <h3>Cart Totals</h3>
+      <div class="totals">
+        <p>Subtotal: <span id="subtotal">₹0.00</span></p>
+        <p>Total: <span id="total">₹0.00</span></p>
+      </div>
+      <button id="checkout-btn">Check Out</button>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container service-icons">
+      <div>🏆 High Quality<br><small>crafted from top materials</small></div>
+      <div>🛡️ Warranty Protection<br><small>Over 2 years</small></div>
+      <div>🚚 Free Shipping<br><small>Order over 150 ₹</small></div>
+      <div>📞 24 / 7 Support<br><small>Dedicated support</small></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
